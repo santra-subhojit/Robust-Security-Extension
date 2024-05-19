@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>BLOCK: Robust Internet Security Software</title>
+  <link rel="stylesheet" href="popup.css">
+</head>
+
+<body>
+  <!-- Header -->
+  <header>
+    <nav>
+      <div class="container">
+        <h1 class="logo">BLOCK</h1>
+        <ul class="menu">
+          <li><a href="#features">Features</a></li>
+          <li><a href="#pricing">Pricing</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="hero">
+    <div class="container">
+      <h2>Robust Internet Security Software</h2>
+      <p>Protect your business with BLOCK's advanced security solutions.</p>
+      <a href="#contact" class="btn">Get Started</a>
+    </div>
+  </section>
+
+  <!-- Features Section -->
+  <section id="features" class="features">
+    <div class="container">
+      <h2>FEATURES</h2>
+      <div class="feature">
+        <img src="security-icon.png" alt="Security Icon">
+        <h3>Advanced Security</h3>
+        <p>Our software provides advanced security measures to protect your business from online threats.</p>
+      </div>
+      <div class="feature">
+        <img src="firewall-icon.png" alt="Firewall Icon">
+        <h3>Firewall Protection</h3>
+        <p>Our powerful firewall protects your network and prevents unauthorized access.</p>
+      </div>
+      <div class="feature">
+        <img src="malware-icon.png" alt="Malware Icon">
+        <h3>Malware Detection</h3>
+        <p>Block detects and removes malware, keeping your systems clean and secure.</p>
+      </div>
+      <div class="feature">
+        <img src="decoder-icon.png" alt="Encoder & Decoder Icon">
+        <h3>Encoder & Decoder</h3>
+        <p>This application will help you in keeping your data safe and encrypted too.</p>
+      </div>
+      <div class="feature">
+        <img src="img-icon.png" alt="Image Encryption & Decryption">
+        <h3>Image Encryption & Decryption</h3>
+        <p>Protection of your Digital Image Files.</p>
+      </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Pricing Section -->
+  <section id="pricing" class="pricing">
+    <div class="container">
+      <h2>Pricing</h2>
+      <div class="price-card">
+        <h3>Basic</h3>
+        <p class="price">Rs.399/3months</p>
+        <ul>
+          <li>&#128525;Advanced Security</li>
+          <li>&#128525;Firewall Protection</li>
+          <li>&#128525;Malware Detection</li>
+        </ul>
+        <a href="#contact" class="btn">Get Started</a>
+      </div>
+      <div class="price-card">
+        <h3>Standard</h3>
+        <p class="price">Rs.599/6months</p>
+        <ul>
+          <li>&#128525; Advanced Security</li>
+          <li>&#128525;Firewall Protection</li>
+          <li>&#128525;Malware Detection</li>
+          <li>&#128525;Encoder & Decoder</li>
+        </ul>
+        <a href="#contact" class="btn">Get Started</a>
+      </div>
+      <div class="price-card">
+        <h3>Pro</h3>
+        <p class="price">Rs.999/12months</p>
+        <ul>
+          <li>&#128525;Advanced Security</li>
+          <li>&#128525;Firewall Protection</li>
+          <li>&#128525;Malware Detection</li>
+          <li>&#128525;Encoder & Decoder</li>
+          <li>&#128525;Image Encryption & Decryption</li>
+          <li>&#128525;24/7 Customer Support</li>
+        </ul>
+        <a href="#contact" class="btn">Get Started</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <script>
+   document.addEventListener('DOMContentLoaded', function() {
+      var emailLink = document.querySelector('a[href^="mailto"]');
+      emailLink.addEventListener('click', function(event) {
+        event.preventDefault(); // Prevent the default behavior of the link
+        var email = emailLink.getAttribute('href');
+        window.open(email, '_blank');
+      });
+    });
+  </script>
+  <section id="contact" class="contact">
+    <div class="container">
+      <h2>Contact Us</h2>
+      <a href="mailto:block.aasssr@gmails.com?subject=Mail from our Website">Email</a>
+      <p>Fill out the form below and we'll get back to you.</p>
+      <div class="container">
+        
+        
+        <div class="tab-content">
+          <div id="signup">   
+            <h1>Sign Up for Free</h1>
+            
+            <form>
+              <input type="text" placeholder="Username" required>
+              <input type="email" placeholder="Email" required>
+              <input type="password" placeholder="Password" required>
+              <input type="password" placeholder="Confirm Password" required>
+              <button type="submit">Sign Up</button>
+            </form>
+  
+          </div>
+          
+          <div id="login">   
+            <h1>Welcome Back!</h1>
+            
+            <form>
+              <input type="text" placeholder="Username" required>
+              <input type="password" placeholder="Password" required>
+              <button type="submit">Login</button>
+            </form>
+      </div>
