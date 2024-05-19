@@ -1,0 +1,62 @@
+<!-- combined.html -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SecureExtension - Malicious Website Detector</title>
+  <link rel="stylesheet" href="popup.css">
+</head>
+<body>
+  <div class="container">
+    <!-- SecureExtension Section -->
+    <img src="icon128.png" alt="SecureExtension Icon">
+    <div class="header-links">
+      <a href="#" id="registrationLink">Registration</a>
+      <a href="#" id="helpSupportLink">Help & Support</a>
+    </div>
+    <h1>Solution to Your Internet Security Problems!</h1>
+    <textarea id="textInput" placeholder="Type here..."></textarea>
+    <div class="button-container">
+      <button id="encryptButton">Encrypt</button>
+      <button id="decryptButton">Decrypt</button>
+    </div>
+
+    <h2>Password Manager</h2>
+    <label for="username">Username:</label>
+    <input type="" id="username">
+
+    <label for="password">Password:</label>
+    <input type="password" id="password">
+
+    <button id="saveButton">Save Password</button>
+    <button id="retrieveButton">Retrieve Password</button>
+
+    <div id="output"></div>
+
+    <h3>Website Security Check</h3>
+    <p>Enter a website URL to check if it's malicious:</p>
+    <input type="text" id="urlInput" placeholder="Enter URL">
+    <button id="checkButton">Check</button>
+    <p id="result"></p>
+
+    <h4>File Scanner</h4>
+    <input type="file" id="fileInput" accept=".txt, .pdf, .doc, .docx, .zip">
+    <button id="scanButton">Scan File</button>
+
+    <div id="scanResult"></div>
+
+  </div>
+
+  <div class="footer">
+    <p>&copy; 2024 BLOCK. All Rights Reserved. Trademarks belong to their respective owners.</p>
+  </div>
+
+  <script src="popup.js"></script>
+  <script src="passwordManager.js"></script>
+  <script src="check.js"></script>
+  <script src="security.js"></script>
+  <script src="file.js"></script>
+</body>
+</html>
